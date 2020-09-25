@@ -5,12 +5,13 @@ nmap <M-h>    :vertical resize -2<CR>
 nmap <M-l>    :vertical resize +2<CR>
 
 " TAB in general mode will move to text buffer
-nmap <Leader><TAB> :bnext<CR>
+nmap <leader><TAB> :bnext<CR>
+nmap <leader>bd :bd<CR>
 
 " Alternate way to save
-nmap <Leader>fs :w<CR>
+nmap <C-s> :w<CR>
 " Alternate way to quit
-nmap <Leader>qq :q<CR>
+nmap <C-q> :q<CR>
 " Use control-c instead of escape
 nmap <C-c> <Esc>
 " <TAB>: completion.
@@ -21,16 +22,19 @@ vmap < <gv
 vmap > >gv
 
 " Better window navigation
-nmap <Leader>wh <C-w>h
-nmap <Leader>wj <C-w>j
-nmap <Leader>wk <C-w>k
-nmap <Leader>wl <C-w>l
-nmap <Leader>wv <C-w>v
-nmap <Leader>ws <C-w>s
+nmap wh <C-w>h
+nmap wj <C-w>j
+nmap wk <C-w>k
+nmap wl <C-w>l
+nmap wv <C-w>v
+nmap ws <C-w>s
 
 " Search
-nmap <Leader>/ :Ag<CR>
-nmap <Leader>. :Files<CR>
+nmap <leader>/ :Ag<CR>
+nmap <leader>. :Files<CR>
 
 " Git
-nmap <Leader>gs :Git<CR>
+nmap <leader>g :Git<CR>
+
+" Nerdtree
+nmap <leader>n :NERDTreeToggle<CR>
