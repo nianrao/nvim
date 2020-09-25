@@ -9,9 +9,9 @@ nmap <leader><TAB> :bnext<CR>
 nmap <leader>bd :bd<CR>
 
 " Alternate way to save
-nmap <C-s> :w<CR>
+nmap <leader>fs :w<CR>
 " Alternate way to quit
-nmap <C-q> :q<CR>
+nmap <leader>qq :q<CR>
 " Use control-c instead of escape
 nmap <C-c> <Esc>
 " <TAB>: completion.
@@ -22,19 +22,23 @@ vmap < <gv
 vmap > >gv
 
 " Better window navigation
-nmap wh <C-w>h
-nmap wj <C-w>j
-nmap wk <C-w>k
-nmap wl <C-w>l
-nmap wv <C-w>v
-nmap ws <C-w>s
+nmap <leader><Left> <C-w>h
+nmap <leader><Down> <C-w>j
+nmap <leader><Up> <C-w>k
+nmap <leader><Right> <C-w>l
+nmap <leader>v <C-w>v
+nmap <leader>h <C-w>s
 
 " Search
 nmap <leader>/ :Ag<CR>
+nmap <leader>r :Rg<CR>
 nmap <leader>. :Files<CR>
 
 " Git
-nmap <leader>g :Git<CR>
+nmap <leader>g :Git
 
-" Nerdtree
-nmap <leader>n :NERDTreeToggle<CR>
+" Reload init.vim
+nmap <leader>qr :source ~/.config/nvim/init.vim<CR>
+
+" open a terminal in new window
+nmap <leader>t <C-w>v :terminal<CR>
