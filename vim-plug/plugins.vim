@@ -82,4 +82,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
    " workspace
    Plug 'thaerkh/vim-workspace'
+
+	" clang-format
+	Plug 'rhysd/vim-clang-format'
 call plug#end()
