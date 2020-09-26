@@ -1,4 +1,2 @@
-if exists(":Tabularize")
-  nmap <Leader>= :Tabularize /
-  vmap <Leader>= :Tabularize /
-endif
+nmap <M-a> :Tabularize /
+vmap <M-a> :Tabularize /
