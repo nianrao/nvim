@@ -97,4 +97,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
    " Forth syntax
    Plug 'vim-scripts/forth.vim'
+
+	" LazyGit
+	Plug 'kdheepak/lazygit.nvim'
 call plug#end()

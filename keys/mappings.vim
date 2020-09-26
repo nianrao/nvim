@@ -36,6 +36,7 @@ nmap <leader>. :Files<CR>
 
 " Git
 nmap <leader>g :Git
+nmap <leader>lg :LazyGit<CR>
 
 " Reload init.vim
 nmap <leader>qr :source ~/.config/nvim/init.vim<CR>
