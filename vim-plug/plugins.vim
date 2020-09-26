@@ -85,4 +85,16 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 	" clang-format
 	Plug 'rhysd/vim-clang-format'
+
+	" hdl checker
+	Plug 'suoto/hdlcc'
+
+	" Xilinx XDC file syntax
+	Plug 'amal-khailtash/vim-xdc-syntax'
+
+	" Xilinx UCF syntax
+	Plug 'vim-scripts/ucf.vim'
+
+   " Forth syntax
+   Plug 'vim-scripts/forth.vim'
 call plug#end()
