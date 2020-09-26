@@ -4,7 +4,6 @@ nmap <leader>bd :bd<CR>
 
 " Alternate way to save
 nmap <C-s> :w<CR>
-imap <C-s> :w<CR>
 
 " Alternate way to quit
 nmap <C-q> :wq<CR>

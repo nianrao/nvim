@@ -106,4 +106,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 	" devicons
 	Plug 'ryanoasis/vim-devicons'
+
+	" cpp enhanced highlight
+	Plug 'octol/vim-cpp-enhanced-highlight'
 call plug#end()

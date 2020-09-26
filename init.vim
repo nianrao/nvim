@@ -19,6 +19,7 @@ source $HOME/.config/nvim/plug-config/workspace.vim
 source $HOME/.config/nvim/plug-config/clang-format.vim
 source $HOME/.config/nvim/plug-config/forth-syntax.vim
 source $HOME/.config/nvim/plug-config/lazygit.vim
+source $HOME/.config/nvim/plug-config/cpp-enhanced.vim
 
 " keybindings
 source $HOME/.config/nvim/keys/mappings.vim
