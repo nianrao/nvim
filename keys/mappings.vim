@@ -9,9 +9,9 @@ nmap <leader><TAB> :bnext<CR>
 nmap <leader>bd :bd<CR>
 
 " Alternate way to save
-nmap <leader>fs :w<CR>
+nmap <C-s> :w<CR>
 " Alternate way to quit
-nmap <leader>qq :q<CR>
+nmap <C-q> :wq<CR>
 " Use control-c instead of escape
 nmap <C-c> <Esc>
 " <TAB>: completion.
@@ -22,10 +22,10 @@ vmap < <gv
 vmap > >gv
 
 " Better window navigation
-nmap <leader><Left> <C-w>h
-nmap <leader><Down> <C-w>j
-nmap <leader><Up> <C-w>k
-nmap <leader><Right> <C-w>l
+nmap <C-Left> <C-w>h
+nmap <C-Down> <C-w>j
+nmap <C-Up> <C-w>k
+nmap <C-Right> <C-w>l
 nmap <leader>v <C-w>v
 nmap <leader>h <C-w>s
 

@@ -70,4 +70,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 	" multi-cursor
 	Plug 'terryma/vim-multiple-cursors'
+
+	" remove trailing whitespace
+	Plug 'nestorsalceda/vim-strip-trailing-whitespaces'
+
+	" indent line
+	Plug 'yggdroot/indentline'
+
+	" Tabular
+	Plug 'godlygeek/tabular'
 call plug#end()
