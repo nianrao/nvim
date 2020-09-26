@@ -101,12 +101,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" LazyGit
 	Plug 'kdheepak/lazygit.nvim'
 
-	" Nerd fonts
-	Plug 'ryanoasis/nerd-fonts'
-
-	" devicons
-	Plug 'ryanoasis/vim-devicons'
-
 	" cpp enhanced highlight
 	Plug 'octol/vim-cpp-enhanced-highlight'
+
+	" auto-save
+	Plug '907th/vim-auto-save'
 call plug#end()
