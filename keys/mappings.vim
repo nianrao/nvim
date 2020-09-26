@@ -1,19 +1,17 @@
-" Use alt + hjkl to resize window
-nmap <M-j>    :resize -2<CR>
-nmap <M-k>    :resize +2<CR>
-nmap <M-h>    :vertical resize -2<CR>
-nmap <M-l>    :vertical resize +2<CR>
-
 " TAB in general mode will move to text buffer
 nmap <leader><TAB> :bnext<CR>
 nmap <leader>bd :bd<CR>
 
 " Alternate way to save
 nmap <C-s> :w<CR>
+imap <C-s> :w<CR>
+
 " Alternate way to quit
 nmap <C-q> :wq<CR>
+
 " Use control-c instead of escape
 nmap <C-c> <Esc>
+
 " <TAB>: completion.
 imap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
