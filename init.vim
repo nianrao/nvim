@@ -10,6 +10,7 @@ source $HOME/.config/nvim/plug-config/quickscope.vim
 source $HOME/.config/nvim/plug-config/snippets.vim
 source $HOME/.config/nvim/plug-config/indentline.vim
 source $HOME/.config/nvim/plug-config/tabular.vim
+source $HOME/.config/nvim/plug-config/workspace.vim
 source $HOME/.config/nvim/keys/mappings.vim
 " source $HOME/.config/nvim/keys/which-key.vim
 source $HOME/.config/nvim/themes/onedark.vim

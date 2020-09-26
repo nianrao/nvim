@@ -79,4 +79,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 	" Tabular
 	Plug 'godlygeek/tabular'
+
+   " workspace
+   Plug 'thaerkh/vim-workspace'
 call plug#end()
