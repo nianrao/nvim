@@ -1,5 +1,6 @@
 " TAB in general mode will move to text buffer
-nmap <leader><TAB> :bnext<CR>
+nmap <TAB> :bnext<CR>
+nmap <S-TAB> :bprevious<CR>
 nmap <leader>bd :bd<CR>
 
 " Alternate way to save
@@ -25,11 +26,6 @@ nmap <C-Up> <C-w>k
 nmap <C-Right> <C-w>l
 nmap <leader>v <C-w>v
 nmap <leader>h <C-w>s
-
-" Search
-nmap <leader>/ :Ag<CR>
-nmap <leader>r :Rg<CR>
-nmap <leader>. :Files<CR>
 
 " Git
 nmap <leader>g :Git
