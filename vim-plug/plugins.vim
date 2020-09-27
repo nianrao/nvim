@@ -74,9 +74,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" remove trailing whitespace
 	Plug 'nestorsalceda/vim-strip-trailing-whitespaces'
 
-	" indent line
-	" Plug 'yggdroot/indentline'
-
 	" Tabular
 	Plug 'godlygeek/tabular'
 
@@ -109,4 +106,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 	" Undo tree
 	Plug 'mbbill/undotree'
+
+	" increment search
+	Plug 'haya14busa/is.vim'
 call plug#end()

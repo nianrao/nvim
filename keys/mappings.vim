@@ -37,11 +37,23 @@ nmap <leader>qr :source ~/.config/nvim/init.vim<CR>
 " open a terminal in new window
 nmap <leader>t <C-w>v :terminal<CR>
 
-" Startify
+" Function keys
 nmap <F1> :Startify<CR>
-
-" Undo Tree
 nmap <F2> :UndotreeToggle<CR>
-
-" NERDTree
 nmap <F3> :NERDTreeToggle<CR>
+
+" search and replace
+" Press * to search for the term under the cursor or a visual selection and
+" then press a key below to replace all instances of it in the current file.
+nnoremap <Leader>r :%s///g<Left><Left>
+nnoremap <Leader>rc :%s///gc<Left><Left><Left>
+
+" The same as above but instead of acting on the whole file it will be
+" restricted to the previously visually selected range. You can do that by
+" pressing *, visually selecting the range you want it to apply to and then
+" press a key below to replace all instances of it in the current selection.
+xnoremap <Leader>r :s///g<Left><Left>
+xnoremap <Leader>rc :s///gc<Left><Left><Left>
+
+" Clear search highlights.
+" map <Leader><Space> :let @/=''<CR>

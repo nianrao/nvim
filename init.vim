@@ -13,7 +13,6 @@ source $HOME/.config/nvim/plug-config/signify.vim
 source $HOME/.config/nvim/plug-config/sneak.vim
 source $HOME/.config/nvim/plug-config/quickscope.vim
 source $HOME/.config/nvim/plug-config/snippets.vim
-" source $HOME/.config/nvim/plug-config/indentline.vim
 source $HOME/.config/nvim/plug-config/tabular.vim
 source $HOME/.config/nvim/plug-config/workspace.vim
 source $HOME/.config/nvim/plug-config/clang-format.vim
@@ -24,7 +23,6 @@ source $HOME/.config/nvim/plug-config/auto-save.vim
 
 " keybindings
 source $HOME/.config/nvim/keys/mappings.vim
-" source $HOME/.config/nvim/keys/which-key.vim
 
 " themes
 source $HOME/.config/nvim/themes/onedark.vim
