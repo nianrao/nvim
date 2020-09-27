@@ -40,3 +40,12 @@ nmap <leader>qr :source ~/.config/nvim/init.vim<CR>
 
 " open a terminal in new window
 nmap <leader>t <C-w>v :terminal<CR>
+
+" Startify
+nmap <F1> :Startify<CR>
+
+" Undo Tree
+nmap <F2> :UndotreeToggle<CR>
+
+" NERDTree
+nmap <F3> :NERDTreeToggle<CR>

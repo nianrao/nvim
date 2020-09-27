@@ -106,4 +106,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 	" auto-save
 	Plug '907th/vim-auto-save'
+
+	" Undo tree
+	Plug 'mbbill/undotree'
 call plug#end()
