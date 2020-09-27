@@ -36,3 +36,4 @@ set clipboard=unnamedplus " Copy paste between vim and everything else
 set autochdir             " Your working directory will always be the same as your working directory
 set colorcolumn=81        " set the 80 column marker
 set noswapfile            " disable swap file
+let NERDTreeShowHidden=1  " enable NERDTree to show hidden files
