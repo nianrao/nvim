@@ -75,7 +75,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'nestorsalceda/vim-strip-trailing-whitespaces'
 
 	" indent line
-	Plug 'yggdroot/indentline'
+	" Plug 'yggdroot/indentline'
 
 	" Tabular
 	Plug 'godlygeek/tabular'
