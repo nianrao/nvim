@@ -56,4 +56,4 @@ xnoremap <Leader>r :s///g<Left><Left>
 xnoremap <Leader>rc :s///gc<Left><Left><Left>
 
 " Clear search highlights.
-" map <Leader><Space> :let @/=''<CR>
+map <Leader><Space> :let @/=''<CR>
