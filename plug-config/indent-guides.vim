@@ -1,4 +1,4 @@
-let g:indent_guides_enable_on_vim_startup=1 " enable indent guide lines at startup
+let g:indent_guides_enable_on_vim_startup=0 " enable indent guide lines at startup
 hi IndentGuidesOdd  ctermbg=black
 hi IndentGuidesEven ctermbg=darkgrey
 let g:indent_guides_start_level=2

@@ -1,13 +1,14 @@
 " TAB in general mode will move to text buffer
 nmap <TAB> :bnext<CR>
 nmap <S-TAB> :bprevious<CR>
-nmap <leader>bd :bd<CR>
 
 " Alternate way to save
 nmap <C-s> :w<CR>
 
 " Alternate way to quit
 nmap <C-q> :wq<CR>
+nmap <leader>bd :bd<CR>
+nmap qq :bd<CR>
 
 " Use control-c instead of escape
 nmap <C-c> <Esc>
