@@ -109,4 +109,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 	" increment search
 	Plug 'haya14busa/is.vim'
+
+	" indent guides
+	Plug 'nathanaelkane/vim-indent-guides'
 call plug#end()
