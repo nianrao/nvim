@@ -38,7 +38,7 @@ nmap <leader>qr :source ~/.config/nvim/init.vim<CR>
 nmap <leader>t <C-w>v :terminal<CR>
 
 " Function keys
-nmap <F1> :NERDTreeToggle<CR>
+nmap <F1> :NERDTreeToggleVCS<CR>
 nmap <F2> :Startify<CR>
 nmap <F3> :UndotreeToggle<CR>
 
