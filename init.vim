@@ -22,6 +22,7 @@ source $HOME/.config/nvim/plug-config/cpp-enhanced.vim
 source $HOME/.config/nvim/plug-config/auto-save.vim
 source $HOME/.config/nvim/plug-config/indent-guides.vim
 source $HOME/.config/nvim/plug-config/devicons.vim
+source $HOME/.config/nvim/plug-config/rainbow.vim
 
 " keybindings
 source $HOME/.config/nvim/keys/mappings.vim

@@ -45,7 +45,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'tpope/vim-commentary'
 
 	" Git
-	Plug 'mhinz/vim-signify'
+	Plug 'airblade/vim-gitgutter'
 	Plug 'tpope/vim-fugitive'
 	Plug 'tpope/vim-rhubarb'
 	Plug 'junegunn/gv.vim'
@@ -115,4 +115,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 	" devicons
 	Plug 'ryanoasis/vim-devicons'
+
+	" rainbow_parentheses
+	Plug 'luochen1990/rainbow'
 call plug#end()
