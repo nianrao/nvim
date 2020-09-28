@@ -112,4 +112,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 	" indent guides
 	Plug 'nathanaelkane/vim-indent-guides'
+
+	" devicons
+	Plug 'ryanoasis/vim-devicons'
 call plug#end()

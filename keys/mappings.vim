@@ -38,9 +38,9 @@ nmap <leader>qr :source ~/.config/nvim/init.vim<CR>
 nmap <leader>t <C-w>v :terminal<CR>
 
 " Function keys
-nmap <F1> :Startify<CR>
-nmap <F2> :UndotreeToggle<CR>
-nmap <F3> :NERDTreeToggle<CR>
+nmap <F1> :NERDTreeToggle<CR>
+nmap <F2> :Startify<CR>
+nmap <F3> :UndotreeToggle<CR>
 
 " search and replace
 " Press * to search for the term under the cursor or a visual selection and
