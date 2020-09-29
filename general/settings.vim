@@ -38,3 +38,4 @@ set colorcolumn=81                          " set the 80 column marker
 set noswapfile                              " disable swap file
 let NERDTreeShowHidden=1                    " enable NERDTree to show hidden files
 set hlsearch                                " enable search highlight
+set ignorecase                              " ignore case in search
