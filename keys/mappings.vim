@@ -32,7 +32,7 @@ nmap <leader>v <C-w>v
 nmap <leader>h <C-w>s
 
 " Git
-nmap <leader>g :Git
+nmap <leader>g :Git <Right>
 nmap <leader>lg :LazyGit<CR>
 
 " Reload init.vim
