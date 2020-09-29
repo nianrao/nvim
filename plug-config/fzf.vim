@@ -12,7 +12,7 @@ let g:fzf_history_dir = '~/.local/share/fzf-history'
 
 nmap <leader>. :Files<CR>
 nmap <leader>b :Buffers<CR>
-nmap <leader>/ :Rg<CR>
+nmap <leader>/ :Rg
 nmap <leader>t :Tags<CR>
 nmap <leader>m :Marks<CR>
 
@@ -49,8 +49,9 @@ command! -bang -nargs=? -complete=dir Files
 " Get text in files with Rg
 command! -bang -nargs=* Rg
   \ call fzf#vim#grep(
-  \   'rg --column --line-number --no-heading --color=always --smart-case '.shellescape(<q-args>), 1,
-  \   fzf#vim#with_preview({'down': '40%'}), <bang>0)
+  \   'rg --column --line-number --no-heading --color=always --smart-case '.(<q-args>), 1,
+  \   fzf#vim#with_preview({'down': '40%'}),
+  \   <bang>0)
 
 " Ripgrep advanced
 function! RipgrepFzf(query, fullscreen)
