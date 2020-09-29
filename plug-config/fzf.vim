@@ -1,5 +1,5 @@
 " This is the default extra key bindings
-let g:fzf_action = {
+    g:fzf_action = {
   \ 'ctrl-t': 'tab split',
   \ 'ctrl-x': 'split',
   \ 'ctrl-v': 'vsplit' }
@@ -10,12 +10,11 @@ let g:fzf_action = {
 " explicitly bind the keys to down and up in your $FZF_DEFAULT_OPTS.
 let g:fzf_history_dir = '~/.local/share/fzf-history'
 
+" search keybindings
 nmap <leader>. :Files<CR>
 nmap <leader>b :Buffers<CR>
-nmap <leader>/ :Rg
-nmap <leader>t :Tags<CR>
-nmap <leader>m :Marks<CR>
-
+nmap <leader>/ :Rg <Right>
+xmap <leader>/ y :Rg <C-r>0
 
 let g:fzf_tags_command = 'ctags -R'
 " Border color
