@@ -1,20 +1,24 @@
+let g:startify_custom_header = [
+         \ '   _   _      _ _                ',
+         \ '  | | | | ___| | | ___           ',
+         \ '  | |_| |/ _ \ | |/ _ \          ',
+         \ '  |  _  |  __/ | | (_) |         ',
+         \ '  |_| |_|\___|_|_|\___/          ',
+        \]
+
 let g:startify_session_dir = '~/.config/nvim/session'
 
 let g:startify_lists = [
-          \ { 'type': 'files',     'header': ['   Files']            },
-          \ { 'type': 'dir',       'header': ['   Current Directory '. getcwd()] },
-          \ { 'type': 'sessions',  'header': ['   Sessions']       },
-          \ { 'type': 'bookmarks', 'header': ['   Bookmarks']      },
-          \ ]
+   \ { 'type': 'files',     'header': ['   Files']            },
+   \ { 'type': 'dir',       'header': ['   Current Directory '. getcwd()] },
+   \ { 'type': 'sessions',  'header': ['   Sessions']       },
+   \ { 'type': 'bookmarks', 'header': ['   Bookmarks']      },
+   \ ]
 
 let g:startify_bookmarks = [
-            \ { 'c': '~/.config/i3/config' },
-            \ { 'i': '~/.config/nvim/init.vim' },
-            \ { 'z': '~/.zshrc' },
-            \ '~/Blog',
-            \ '~/Code',
-            \ '~/Pics',
-            \ ]
+   \ { 'i': '~/.config/nvim/init.vim' },
+   \ { 'z': '~/.zshrc' },
+   \ ]
 
 let g:startify_session_autoload = 1
 let g:startify_session_delete_buffers = 1
