@@ -68,7 +68,7 @@ xmap <Leader>r y :%s/<C-r>0/<C-r>0/g<Left><Left>
 xmap <Leader>rc y :%s/<C-r>0/<C-r>0/gc<Left><Left><Left>
 
 " command mode
-map <Space><Space> :
+map ; :
 
 " replace in multiple files
 xmap <leader>fr
