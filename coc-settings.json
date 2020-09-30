@@ -10,6 +10,8 @@
     ],
     "v": "open:vsplit"
   },
+  "cSpell.language": "en-GB",
+  "cSpell.enabled": false,
   "suggest.noselect": true,
   "suggest.enablePreselect": false,
   "codeLens.enable": true,
