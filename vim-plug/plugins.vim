@@ -118,4 +118,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 	" rainbow_parentheses
 	Plug 'luochen1990/rainbow'
+
+	" bookmark
+	Plug 'mattesgroeger/vim-bookmarks'
 call plug#end()

@@ -42,7 +42,7 @@ nmap <leader>qr :source ~/.config/nvim/init.vim<CR>
 nmap <leader>t <C-w>v :terminal<CR>
 
 " Function keys
-nmap <F1> :NERDTreeToggleVCS<CR>
+nmap <F1> :CocCommand explorer<CR>
 nmap <F2> :Startify<CR>
 nmap <F3> :UndotreeToggle<CR>
 
@@ -67,3 +67,6 @@ xmap <leader>fr
    \ y
    \ :cfdo %s/<C-r>0/<C-r>0/g \| update
    \ <Left><Left><Left><Left><Left><Left><Left><Left><Left><Left><Left><Left>
+
+" Quick open vim configuration file
+nmap <leader>nv :e $HOME/.config/nvim/init.vim<CR>
