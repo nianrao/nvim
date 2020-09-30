@@ -24,10 +24,18 @@ vmap < <gv
 vmap > >gv
 
 " Better window navigation
+nmap <C-h> <C-w>h
+nmap <C-j> <C-w>j
+nmap <C-k> <C-w>k
+nmap <C-l> <C-w>l
 nmap <C-Left> <C-w>h
 nmap <C-Down> <C-w>j
 nmap <C-Up> <C-w>k
 nmap <C-Right> <C-w>l
+nmap <leader><Left> <C-w>h
+nmap <leader><Down> <C-w>j
+nmap <leader><Up> <C-w>k
+nmap <leader><Right> <C-w>l
 nmap <leader>v <C-w>v
 nmap <leader>h <C-w>s
 
