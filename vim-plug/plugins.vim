@@ -121,4 +121,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 	" bookmark
 	Plug 'mattesgroeger/vim-bookmarks'
+
+	" surround signs
+	Plug 'tpope/vim-surround'
 call plug#end()
