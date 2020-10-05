@@ -64,8 +64,8 @@ nmap <Leader>rc :%s///gc<Left><Left><Left>
 " restricted to the previously visually selected range. You can do that by
 " pressing *, visually selecting the range you want it to apply to and then
 " press a key below to replace all instances of it in the current selection.
-xmap <Leader>r y :%s/<C-r>0/<C-r>0/g<Left><Left>
-xmap <Leader>rc y :%s/<C-r>0/<C-r>0/gc<Left><Left><Left>
+xmap <Leader>r y :%s/\<<C-r>0\>/<C-r>0/g<Left><Left>
+xmap <Leader>rc y :%s/\<<C-r>0\>/<C-r>0/gc<Left><Left><Left>
 
 " command mode
 map ; :
@@ -73,7 +73,7 @@ map ; :
 " replace in multiple files
 xmap <leader>fr
    \ y
-   \ :cfdo %s/<C-r>0/<C-r>0/g \| update
+   \ :cfdo %s/\<<C-r>0\>/<C-r>0/g \| update
    \ <Left><Left><Left><Left><Left><Left><Left><Left><Left><Left><Left><Left>
 
 " Quick open vim configuration file
