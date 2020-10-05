@@ -12,7 +12,6 @@ let g:coc_global_extensions = [
    \ 'coc-json',
    \ 'coc-python',
    \ 'coc-vimlsp',
-   \ 'coc-spell-checker',
    \ ]
 
 " Some servers have issues with backup files, see #649.
