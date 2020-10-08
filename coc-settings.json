@@ -19,18 +19,5 @@
     "json",
     "python"
   ],
-  "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
-  "languageserver": {
-    "hdlChecker": {
-      "command": "hdl_checker",
-      "args": [
-        "--lsp"
-      ],
-      "filetypes": [
-        "vhdl",
-        "verilog",
-        "systemverilog"
-      ]
-    }
-  }
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snips"
 }
