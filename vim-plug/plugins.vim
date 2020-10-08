@@ -124,4 +124,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 	" surround signs
 	Plug 'tpope/vim-surround'
+
+	" wakatime
+	Plug 'wakatime/vim-wakatime'
 call plug#end()
